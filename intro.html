@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <div class="parent">
+    <!-- <div class="child"></div> -->
+  </div>
+  <section>
+    <div class="maincontainer">
+
+      <div class="leftcontainer">
+        <div class="messageContainer">
+          <div class="headingContainer">
+            <h1 class="heading">Learn to code by watching others</h1>
+          </div>
+          <div>
+            <p class="words">
+              See how experienced developers solve problems in real-time.
+              Watching scripted tutorials is great, but understanding how
+              developers think is invaluable.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="formContainer">
+        <form class="mainForm" id="formclr">
+          <div>
+            <button class="Trail"><b>Try it free 7 day</b> <small>then $20/ma. thereafter</small></button>
+          </div>
+          <div class="inputscontainer">
+            <div class="firstnameContainer">
+              <input type="text" id="firstname" class="firstName" placeholder="first Name">
+              <svg width="24" class="icon" id="icon" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            </div>
+            <div id="errorfirstname" class="sign"></div>
+            <div class="lastnameContainer">
+              <input type="text" id="lastname" class="lastName" placeholder="Last Name">
+              <svg width="24" class="icon2" id="icon2" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            </div>
+            <div id="errorlastname" class="sign"></div>
+            <div class="EmailContainer"> 
+              <input type="email" id="mail" class="Email" placeholder="Email Address">
+              <svg width="24" class="icon3" id="icon3" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            </div>
+            <div id="erroremail" class="sign"></div>
+            <div class="passwordContainer">
+              <input type="password" id="Password" class="passWord" placeholder="Password">
+              <svg width="24" class="icon4" id="icon4" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            </div>
+            <div id="errorpassword" class="sign"></div>
+            <div>
+              <button type="submit" class="claimbtn">CLAIM YOUR FREE TRIAL</button>
+              <div>
+                <p class="agreeWords"><small class="Agree">By clicking the button,you are agreeing to our</small><a
+                    href="https://www.instagram.com/baroski_dat/?__pwa=1#"><b class="Terms">Terms and Service</b></a>
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      Coded by <a href="#">Your Name Here</a>
+    </p>
+  </footer> -->
+
+  <script src="index.js"></script>
+</body>
+
+</html>

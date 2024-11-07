@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  font-family: "Poppins", serif;
+}
+
+.maincontainer {
+  display: flex;
+  height: 100vh;
+}
+
+.leftcontainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messageContainer {
+  max-width: 440px;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+}
+
+.formContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.headingContainer {
+  margin-bottom: 20px;
+}
+
+.words {
+  font-size: 14px;
+}
+
+.mainForm {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.Trail {
+  width: 90%;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 7px;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 85%;
+  padding: 12px;
+  margin: 11px;
+  border-style: ridge;
+  border-radius: 5px;
+  margin-left: 35px;
+  border-color: #fffefe;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 1px hsl(248, 29%, 64%);
+  border-style: groove;
+}
+
+.claimbtn {
+  width: 85%;
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 8px;
+  margin-left: 35px;
+}
+
+.inputscontainer {
+  background-color: #fff;
+  border-radius: 7px;
+  width: 90%;
+  padding: 20px;
+}
+
+.firstName {
+  margin-top: 30px;
+}
+small {
+  color: #f3ecec;
+}
+
+.sign {
+  color: red;
+  font-size: 10px;
+  margin-right: 35px;
+  text-align: right;
+}
+
+.Agree {
+  color: #5e5757;
+}
+
+.agreeWords {
+  width: 60%;
+  display: inline;
+  justify-items: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.Terms {
+  font-size: 11px;
+  color: red;
+}
+
+.firstnameContainer, 
+.lastnameContainer, .EmailContainer, .passwordContainer  {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 38px;
+  right: 38px;
+  display: none;
+  /* opacity: 0.5; */
+}
+
+.icon2{
+  position: absolute;
+  top: 20px;
+  right: 38px;
+  display: none;
+}
+
+.icon3{
+  position: absolute;
+  top: 20px;
+  right: 38px;
+  display: none;
+}
+
+.icon4{
+  position: absolute;
+  top: 20px;
+  right: 38px;
+  display: none;
+}
