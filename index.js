@@ -1,7 +1,7 @@
 document.querySelector("form").addEventListener("submit", function (event) {
   event.preventDefault();
 
-  const form = document.getElementsByClassName("mainForm").value;
+  const form = document.querySelector(".mainForm");
   const firstname = document.getElementById("firstname").value;
   const lastname = document.getElementById("lastname").value;
   const email = document.getElementById("mail").value;
@@ -61,7 +61,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
     document.getElementById("icon4").style.display = "none";
   }
 
-  if(valid){
-    alert('Seccessful.')
+  if (valid) {
+    alert("Seccessful.");
   }
 });
